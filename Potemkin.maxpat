@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 22.0, 1680.0, 1028.0 ],
+		"rect" : [ 840.0, 22.0, 840.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,36 +38,12 @@
 		"subpatcher_template" : "defaultPatch",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 810.0, 810.0, 254.0, 20.0 ],
-					"style" : "",
-					"text" : "make noise plonk yuksek decayi ayni anda ac"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 810.0, 780.0, 285.0, 20.0 ],
-					"style" : "",
-					"text" : "make noise yuksek notalari kapali solo kismi olustur"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 900.0, 435.0, 283.0, 74.0 ],
+					"patching_rect" : [ 15.0, 660.0, 283.0, 74.0 ],
 					"style" : "",
 					"text" : "-yeni dijital kanal\n-phonogene kanal ve pitch ve velocityye bagli mod\n-plonkun iki kanali olacak\n-snare decay veya cutoff olan kanal olacak 8 volt\n-marker kanali yapp channel 16,"
 				}
@@ -81,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 750.0, 435.0, 24.0, 24.0 ],
+					"patching_rect" : [ 660.0, 315.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -93,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 705.0, 480.0, 29.5, 22.0 ],
+					"patching_rect" : [ 605.25, 315.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -105,7 +81,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 540.0, 47.0, 22.0 ],
+					"patching_rect" : [ 605.25, 345.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "dac~ 1"
 				}
@@ -9037,7 +9013,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 927.0, 264.0, 375.0, 45.0 ],
+					"patching_rect" : [ 225.5, 555.0, 375.0, 45.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -9628,7 +9604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 390.0, 128.0, 20.0 ],
+					"patching_rect" : [ 699.0, 456.0, 128.0, 20.0 ],
 					"style" : "",
 					"text" : "<--- object_lib'e gecir, "
 				}
@@ -9640,7 +9616,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 361.0, 37.0, 20.0 ],
+					"patching_rect" : [ 699.0, 406.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "<-----"
 				}
@@ -9649,11 +9625,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"linecount" : 3,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 345.0, 150.0, 47.0 ],
+					"patching_rect" : [ 750.0, 312.0, 76.25, 114.0 ],
 					"style" : "",
 					"text" : "effect uniteleri buraya gelsin ama poly objesinde olsun cpu yemesin"
 				}
@@ -9666,7 +9642,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 880.0, 264.0, 45.0, 45.0 ],
+					"patching_rect" : [ 178.5, 555.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -11282,21 +11258,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 600.0, 300.0 ],
+					"patching_rect" : [ 0.5, 0.0, 600.0, 300.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-52",
-					"linecount" : 33,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 525.0, 446.0, 450.0 ],
-					"style" : "",
-					"text" : "⁃Obje yaratirken ismini gir ve sonrasinda asagidan sec,, yazi cikiyor tamamini yazmiyorsun boylece,, sonra argumanlari sonra girip enter’a bas\n⁃always use two words with max files , one word can be take over existing max object\n⁃Shortcut Keys: F, I, T, B, M, C\n⁃There is also redo\n⁃Ctrl’e basip inlet’e tiklar isen general overview oluyor VE sonra tiklayinca direk obje yaratiliyor.\n⁃Always work with grids,\n⁃Always use segmented patch cords\n⁃Command click ile segmented patch cordlari bozabiliyorsun,\n⁃Cmd + Y ile objeleri birbiri ile perfect align yapabilyiorsun\n⁃Snap to grid ile calismak onemli, gridlere oturtuyor objeleri,\n⁃Cmd+K ile objeleri veya line’lari saklayabilyiorsun, Cmd + L ile yeniden visible yapiyorsun.\n⁃Cmd + Shift + Y ile route patch cords yapiyorsun,\n⁃objenin sol tarafina gelince birseyler cikiyior,\n⁃To add an object to presentation mode press Cmd-P\n⁃Cmd - B ile dosya aciliyor. iyi bir sekilde incele. (Drag and drop)\n⁃Cmd - I inspector aciyor\n⁃When we place objects over other objects, those created more recently will cover the older ones.\n⁃Edit mode’da alt-click yapar isen objenin help dokmani aciliyor,\n⁃Inspector’da Freeze Attribute yapar isen, o ozellik kaliyor mesela (sfplay icin sample load kismi)\n⁃You create higher order filters buy cascading 6db slope filters.\n⁃Pvar objesini hep kullan boylece karmasadan uzak olur. (Number boxlarin etrafina panel koy).\n-probing bayaaa kilit msp degerini goruosun\n-attrui acmaninkisa yoolu ctrl click ile inletine tiklayip secmek\n- loadmesse tiklayinca yolluo\n- pencerenin sol ust kenarinda nokta var ise kapatmada, o save edilmemis anlamina gelio"
 				}
 
 			}
@@ -11311,7 +11274,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 702.0, 264.0, 127.0, 21.0 ],
+					"patching_rect" : [ 0.0, 552.0, 127.0, 21.0 ],
 					"spacing_y" : 0.0,
 					"style" : "",
 					"valign" : 0
@@ -11331,8 +11294,8 @@
 					"name" : "z-infoPad.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 702.0, 12.0, 600.0, 250.0 ],
+					"offset" : [ 0.0, -250.0 ],
+					"patching_rect" : [ 0.5, 302.0, 600.0, 250.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -11340,6 +11303,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-111",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -13935,7 +13899,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 390.0, 170.0, 22.0 ],
+					"patching_rect" : [ 604.0, 435.0, 80.0, 62.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -14762,19 +14726,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-58",
-					"linecount" : 14,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 315.0, 540.0, 194.0 ],
-					"style" : "",
-					"text" : "ek modular cirklon CV connections\n\n- 2x chimera volume & cv\n- bass vco\n- bass filter \n- bass vol envelope gate\n- 2x chimera volume & cv\n\n&&&GATEZ&&&\n\n7) mmg accent inputs, random probability, opening, or if vel>\n\nmax to cirklon cv deneme yap oscilloscope ile,,,,\nphonogene valume midi ile dijital"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -15174,7 +15125,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 360.0, 85.0, 22.0 ],
+					"patching_rect" : [ 604.0, 405.0, 85.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -15232,6 +15183,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 525.0, 435.0, 84.0, 47.0 ],
+									"style" : "",
+									"text" : "scale objects exponentially\n"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 525.0, 465.0, 95.0, 22.0 ],
+									"style" : "",
+									"text" : "linedrive 0 3 4 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-16",
 									"maxclass" : "newobj",
@@ -15758,7 +15735,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 329.0, 71.0, 22.0 ],
+					"patching_rect" : [ 605.25, 375.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -20366,7 +20343,7 @@
 									"allowdrag" : 0,
 									"fontsize" : 13.0,
 									"id" : "obj-22",
-									"items" : [ "USB MIDI Device", ",", "Cirklon Port 1", ",", "Cirklon Port 2", ",", "Cirklon Port 3", ",", "Cirklon Port 4", ",", "Cirklon Port 5", ",", "Cirklon Port 6", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "USB MIDI Device", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -21375,7 +21352,23 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 600.0, 0.0, 100.0, 300.0 ],
+					"patching_rect" : [ 600.0, 0.0, 97.5, 300.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 0.305882, 0.717647, 0.67451, 0.28 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 600.0, 302.0, 97.5, 298.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -21384,7 +21377,9 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"color" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 10.0, 298.0, 614.75, 298.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -21406,7 +21401,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
-					"midpoints" : [ 711.5, 295.0, 701.5, 295.0, 701.5, 1.0, 711.5, 1.0 ],
+					"midpoints" : [ 9.5, 583.0, 4.5, 583.0, 4.5, 289.0, 10.0, 289.0 ],
 					"source" : [ "obj-76", 0 ]
 				}
 
