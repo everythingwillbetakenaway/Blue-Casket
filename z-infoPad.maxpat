@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 56.0, 772.0, 960.0 ],
+		"rect" : [ 0.0, 22.0, 1680.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -259,12 +259,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.5, 375.0, 135.0, 20.0 ],
+					"patching_rect" : [ 14.5, 375.0, 175.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1155.0, 585.0, 117.0, 33.0 ],
 					"style" : "",
-					"text" : "CV#4 - Phono Volume"
+					"text" : "CV#4 - Phono Volume / Gene"
 				}
 
 			}
