@@ -38,12 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-40",
-					"linecount" : 2,
+					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 75.0, 174.0, 33.0 ],
+					"patching_rect" : [ 615.0, 45.0, 188.0, 20.0 ],
+					"style" : "",
+					"text" : "futureRetro = Port-2 / Channel-7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 615.0, 75.0, 188.0, 20.0 ],
 					"style" : "",
 					"text" : "cloneTrigger = Port-2 / Channel-6"
 				}
