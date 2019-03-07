@@ -4,24 +4,24 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 56.0, 772.0, 960.0 ],
+		"rect" : [ 35.0, 79.0, 786.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridonopen" : 2,
+		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 2,
-		"objectsnaponopen" : 1,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -36,7 +36,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "defaultPatch",
+		"subpatcher_template" : "chipHazard",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -337,7 +337,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 240.0, 100.0, 22.0 ],
-					"prefix" : "/Users/emantnuocca/Desktop/max/digi"
+					"prefix" : "Macintosh HD:/Users/emantnuocca/Desktop/max/digi voice samples/"
 				}
 
 			}
@@ -760,10 +760,21 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0,
+		"autosave" : 1,
+		"default_bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+		"color" : [ 0.407843137254902, 0.643137254901961, 0.466666666666667, 1.0 ],
+		"elementcolor" : [ 0.266666666666667, 0.43921568627451, 0.290196078431373, 1.0 ],
+		"accentcolor" : [ 0.450980392156863, 0.682352941176471, 0.450980392156863, 1.0 ],
+		"selectioncolor" : [ 0.545098039215686, 0.717647058823529, 0.443137254901961, 1.0 ],
+		"textcolor" : [ 0.627450980392157, 0.737254901960784, 0.564705882352941, 1.0 ],
+		"textcolor_inverse" : [ 0.580392156862745, 0.772549019607843, 0.462745098039216, 1.0 ],
+		"patchlinecolor" : [ 0.556862745098039, 0.698039215686274, 0.470588235294118, 0.901960784313726 ],
+		"bgcolor" : [ 0.11576609313488, 0.108424440026283, 0.111983120441437, 1.0 ],
+		"editing_bgcolor" : [ 0.092731304466724, 0.08933013677597, 0.089448198676109, 1.0 ],
+		"stripecolor" : [ 0.294117647058824, 0.294117647058824, 0.294117647058824, 1.0 ],
 		"bgfillcolor_type" : "gradient",
-		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+		"bgfillcolor_color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"bgfillcolor_color2" : [ 0.228829, 0.218749, 0.211649, 1.0 ],
 		"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
 	}
 
