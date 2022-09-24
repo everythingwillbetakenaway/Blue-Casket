@@ -129,8 +129,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 276.0, 226.0, 49.0, 22.0 ],
-					"text" : "random"
+					"patching_rect" : [ 276.0, 226.0, 59.0, 22.0 ],
+					"text" : "random 0"
 				}
 
 			}
