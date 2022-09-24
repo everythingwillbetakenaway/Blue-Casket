@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 81.0, 1523.0, 542.0 ],
+		"rect" : [ 59.0, 72.0, 1648.0, 904.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -25,8 +25,8 @@
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -80,7 +80,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1343.0, 498.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 6"
 				}
@@ -92,7 +92,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1154.0, 498.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 5"
 				}
@@ -104,7 +104,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 969.0, 502.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 4"
 				}
@@ -116,7 +116,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 780.0, 502.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 3"
 				}
@@ -192,7 +192,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 612.0, 502.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 2"
 				}
@@ -204,7 +204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 423.0, 502.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 1"
 				}
@@ -276,8 +276,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 651.0, 47.0, 22.0 ],
-					"text" : "midiout"
+					"patching_rect" : [ 423.0, 651.0, 99.0, 22.0 ],
+					"text" : "midiout UM-ONE"
 				}
 
 			}
@@ -672,8 +672,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 72.0, 157.0, 40.0, 22.0 ],
-					"text" : "midiin"
+					"patching_rect" : [ 72.0, 157.0, 92.0, 22.0 ],
+					"text" : "midiin UM-ONE"
 				}
 
 			}
@@ -1095,7 +1095,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "nord_drum_micro.maxpat",
+				"bootpath" : "~/Desktop/Blue-Casket/2-Nord",
+				"patcherrelativepath" : "./2-Nord",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
