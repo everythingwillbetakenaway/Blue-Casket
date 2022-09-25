@@ -58,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.5, 770.0, 62.5, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "CIRCUIT BENT #2"
 				}
 
