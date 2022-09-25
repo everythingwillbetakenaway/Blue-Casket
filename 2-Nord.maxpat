@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 72.0, 1450.0, 921.0 ],
+		"rect" : [ 725.0, 70.0, 784.0, 923.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,55 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-69",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 105.0, 779.0, 150.0, 33.0 ],
+					"text" : "note off trigger random circuit bent yap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.5, 770.0, 62.5, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "CIRCUIT BENT #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 679.0, 62.5, 33.0 ],
+					"text" : "CIRCUIT BENT #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 99.0, 674.0, 150.0, 60.0 ],
+					"text" : "CC trigger on note vs continuous circuit bent yap, 3uncu enstruman ile define et, 1ve0 gibi"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -68,17 +117,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1040.0, 102.0, 124.0, 20.0 ],
 					"text" : "random range input"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1038.0, 275.0, 91.0, 22.0 ],
-					"text" : "print @popup 1"
 				}
 
 			}
@@ -137,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 481.0, 150.0, 87.0 ],
+					"patching_rect" : [ 94.0, 481.0, 151.0, 87.0 ],
 					"text" : "MIDI in kanallarini dusun, Drum mi yoksa,. boyle midi notasini belirlesin, nota calinca, drum oradan pick up etsin, belki.Bu son onemli"
 				}
 
@@ -200,17 +238,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 372.0, 91.0, 22.0 ],
-					"text" : "print @popup 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -251,7 +278,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.666666666666629, 372.0, 99.0, 22.0 ],
+					"patching_rect" : [ 841.666666666666629, 455.0, 99.0, 22.0 ],
 					"text" : "midiout UM-ONE"
 				}
 
@@ -263,7 +290,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 841.666666666666629, 313.0, 113.0, 22.0 ],
+					"patching_rect" : [ 841.666666666666629, 396.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 1"
 				}
 
@@ -1107,15 +1134,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"order" : 0,
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"order" : 1,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1192,7 +1210,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-36", 2 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
