@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 725.0, 70.0, 784.0, 923.0 ],
+		"rect" : [ 256.0, 46.0, 1444.0, 916.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,83 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1243.0, 102.0, 63.0, 34.0 ],
+					"text" : "LFO input\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1220.0, 187.0, 37.0, 22.0 ],
+					"text" : "swap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1220.0, 231.0, 34.0, 22.0 ],
+					"text" : "pack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1220.0, 142.0, 138.0, 22.0 ],
+					"text" : "ctlin \"Cirklon Port 1\" -1 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 105.0, 844.0, 150.0, 47.0 ],
+					"text" : "scaled unscaled circuit bent?? cok micro olablr, ratioyu dusurcek bayaa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.5, 858.0, 63.0, 33.0 ],
+					"text" : "CIRCUIT BENT #3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 779.0, 150.0, 33.0 ],
+					"patching_rect" : [ 105.0, 770.0, 150.0, 33.0 ],
 					"text" : "note off trigger random circuit bent yap"
 				}
 
@@ -69,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 679.0, 62.5, 33.0 ],
+					"patching_rect" : [ 10.5, 691.0, 62.5, 33.0 ],
 					"text" : "CIRCUIT BENT #1"
 				}
 
@@ -81,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 674.0, 150.0, 60.0 ],
+					"patching_rect" : [ 107.166655999999989, 664.0, 150.0, 60.0 ],
 					"text" : "CC trigger on note vs continuous circuit bent yap, 3uncu enstruman ile define et, 1ve0 gibi"
 				}
 
@@ -103,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 632.0, 150.0, 20.0 ],
+					"patching_rect" : [ 107.166655999999989, 628.0, 150.0, 20.0 ],
 					"text" : "Nord-L yap, LFO channeli"
 				}
 
@@ -162,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 572.0, 150.0, 47.0 ],
+					"patching_rect" : [ 107.166655999999989, 568.0, 150.0, 47.0 ],
 					"text" : "program change i dusun, cc32 ye ve cc0'a denk gelio"
 				}
 
@@ -174,7 +245,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 481.0, 151.0, 87.0 ],
+					"patching_rect" : [ 107.166655999999989, 477.0, 151.0, 87.0 ],
 					"text" : "MIDI in kanallarini dusun, Drum mi yoksa,. boyle midi notasini belirlesin, nota calinca, drum oradan pick up etsin, belki.Bu son onemli"
 				}
 
@@ -266,7 +337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 431.0, 150.0, 33.0 ],
+					"patching_rect" : [ 107.166655999999989, 427.0, 150.0, 33.0 ],
 					"text" : "route Nord Drum to Cirklon"
 				}
 
@@ -1273,6 +1344,41 @@
 					"destination" : [ "obj-93", 3 ],
 					"order" : 4,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 1 ],
+					"source" : [ "obj-62", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 3 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 1 ],
+					"source" : [ "obj-70", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
