@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 46.0, 1473.0, 919.0 ],
+		"rect" : [ 256.0, 46.0, 933.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 627.0, 380.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 403.0, 309.0, 50.5, 22.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 738.666666666666515, 139.0, 113.0, 22.0 ],
+					"patching_rect" : [ 125.666655999999989, 285.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 6"
 				}
 
@@ -55,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 603.666666666666515, 139.0, 113.0, 22.0 ],
+					"patching_rect" : [ 116.166655999999989, 257.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 5"
 				}
 
@@ -66,7 +90,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.666666666666515, 139.0, 113.0, 22.0 ],
+					"patching_rect" : [ 107.166655999999989, 228.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 4"
 				}
 
@@ -89,7 +113,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.666666666666629, 139.0, 113.0, 22.0 ],
+					"patching_rect" : [ 99.666666666666629, 199.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 3"
 				}
 
@@ -100,7 +124,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.666666666666629, 139.0, 113.0, 22.0 ],
+					"patching_rect" : [ 88.666666666666629, 169.0, 113.0, 22.0 ],
 					"text" : "nord_drum_micro 2"
 				}
 
