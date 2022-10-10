@@ -1026,7 +1026,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 190.5, 900.0, 218.5, 22.0 ],
+					"patching_rect" : [ 190.5, 900.0, 229.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1034,7 +1034,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p can_ableton"
+					"text" : "p ableton_out"
 				}
 
 			}
